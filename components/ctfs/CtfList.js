@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, StyleSheet } from 'react-native';
 import CtfCard from './CtfCard';
 
 const ctfs = [
@@ -54,12 +54,18 @@ const ctfs = [
 
 const CtfList = ({ navigation }) => {
   return (
-    <ScrollView>
+    <ScrollView style={styles.container}>
       {ctfs.map(ctf => (
         <CtfCard key={ctf.id} {...ctf} navigation={navigation} />
       ))}
     </ScrollView>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});
 
 export default CtfList;
