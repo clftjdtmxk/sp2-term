@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "149004425127",
+    "project_id": "psychic-lens-335013",
+    "storage_bucket": "psychic-lens-335013.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149004425127:android:35b28d3a76e43a73b0c882",
+        "android_client_info": {
+          "package_name": "com.sp2term"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149004425127-52njvgs2ittkhbjchj9b16va39nihch6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sp2term",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "149004425127-psd19m1vu494cmls8kdb4fnida01nupe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAblDkcD-rwF2s-jUBwiGHnlqV_Dyf7bq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149004425127-psd19m1vu494cmls8kdb4fnida01nupe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
